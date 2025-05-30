@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONJOY DHAR | Professional Web Developer Portfolio</title>
+    <meta name="description" content="MONJOY DHAR - Professional web developer specializing in modern, responsive websites and web applications. View my portfolio and get in touch for your next project.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="url(#logo-gradient)"/>
+                        <path d="M10 30 L15 10 L20 25 L25 10 L30 30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="20" cy="20" r="2" fill="white"/>
+                        <defs>
+                            <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0066FF"/>
+                                <stop offset="100%" style="stop-color:#B366FF"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="logo-text">MONJOY DHAR</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Hi, I'm</span>
+                        <span class="title-line highlight">MONJOY DHAR</span>
+                        <span class="title-line">Full Stack Developer</span>
+                    </h1>
+                    <p class="hero-description">
+                        I create modern, responsive, and user-friendly websites that help businesses 
+                        thrive in the digital world with cutting-edge technologies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image">
+                        <img src="hero-bg.svg" alt="Web Development Illustration">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating exceptional digital experiences</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <p>
+                            I'm MONJOY DHAR, a passionate full-stack developer with expertise in creating 
+                            modern, responsive websites that combine beautiful design with powerful functionality.
+                        </p>
+                        <p>
+                            I believe in writing clean, maintainable code and staying up-to-date with the 
+                            latest web technologies to deliver exceptional user experiences.
+                        </p>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Frontend Development</h4>
+                                    <p>HTML5, CSS3, JavaScript, React, Vue.js</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Backend Development</h4>
+                                    <p>Node.js, Python, PHP, Database Design</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Responsive Design</h4>
+                                    <p>Mobile-first approach, Cross-browser compatibility</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Performance Optimization</h4>
+                                    <p>SEO, Page Speed, Web Vitals</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-actions">
+                        <a href="#" class="btn btn-primary" id="download-cv">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="profile-placeholder.svg" alt="Developer Profile">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Portfolio</h2>
+                <p class="section-subtitle">Recent projects showcasing my expertise</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            </div>
+            
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Portfolio items will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services & Pricing</h2>
+                <p class="section-subtitle">Choose the perfect plan for your project needs</p>
+            </div>
+            
+            <!-- Pricing Plans -->
+            <div class="pricing-grid">
+                <div class="pricing-card basic">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">499</span>
+                            <span class="period">/project</span>
+                        </div>
+                        <p class="pricing-description">Perfect for small businesses and personal projects</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Responsive Website Design</li>
+                        <li><i class="fas fa-check"></i> Up to 5 Pages</li>
+                        <li><i class="fas fa-check"></i> Mobile Optimization</li>
+                        <li><i class="fas fa-check"></i> Basic SEO Setup</li>
+                        <li><i class="fas fa-check"></i> Contact Form Integration</li>
+                        <li><i class="fas fa-check"></i> 30 Days Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline pricing-btn">Get Started</a>
+                </div>
+                
+                <div class="pricing-card premium featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">1,299</span>
+                            <span class="period">/project</span>
+                        </div>
+                        <p class="pricing-description">Ideal for growing businesses with advanced needs</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Starter</li>
+                        <li><i class="fas fa-check"></i> Up to 15 Pages</li>
+                        <li><i class="fas fa-check"></i> E-commerce Integration</li>
+                        <li><i class="fas fa-check"></i> Advanced SEO Optimization</li>
+                        <li><i class="fas fa-check"></i> Payment Gateway Setup</li>
+                        <li><i class="fas fa-check"></i> Admin Dashboard</li>
+                        <li><i class="fas fa-check"></i> 90 Days Support</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary pricing-btn">Get Started</a>
+                </div>
+                
+                <div class="pricing-card enterprise">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">2,999</span>
+                            <span class="period">/project</span>
+                        </div>
+                        <p class="pricing-description">Complete solution for large-scale applications</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Professional</li>
+                        <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                        <li><i class="fas fa-check"></i> Custom API Development</li>
+                        <li><i class="fas fa-check"></i> Database Architecture</li>
+                        <li><i class="fas fa-check"></i> Third-party Integrations</li>
+                        <li><i class="fas fa-check"></i> Security Implementation</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> Performance Monitoring</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline pricing-btn">Get Started</a>
+                </div>
+            </div>
+            
+            <!-- Services Overview -->
+            <div class="services-overview">
+                <h3>Additional Services</h3>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Mobile App Development</h4>
+                        <p>Native and cross-platform mobile applications</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-cloud"></i>
+                        <h4>Cloud Deployment</h4>
+                        <p>Scalable hosting and deployment solutions</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Security Audits</h4>
+                        <p>Comprehensive security assessment and fixes</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Analytics Setup</h4>
+                        <p>Performance tracking and business insights</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact contact-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next project</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        Ready to bring your vision to life? I'm here to help you create 
+                        an exceptional web presence that drives results.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>monjoydhar29@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Dhaka,Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Sending...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="40" height="40" rx="8" fill="url(#footer-logo-gradient)"/>
+                                <path d="M10 30 L15 10 L20 25 L25 10 L30 30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="20" cy="20" r="2" fill="white"/>
+                                <defs>
+                                    <linearGradient id="footer-logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#0066FF"/>
+                                        <stop offset="100%" style="stop-color:#B366FF"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h3>MONJOY DHAR</h3>
+                        </div>
+                        <p class="footer-description">
+                            Full Stack Developer specializing in modern web applications and user experiences.
+                        </p>
+                        <div class="footer-social">
+                            <a href="linkedin.com/in/monjoy-dhar-62642a345" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/monjoydhar" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/monjoy.dhar.773" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/maybe_monjoy_69?igsh=MXI4MTg2YjVjZDdrcg==" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links-section">
+                        <div class="footer-column">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#services">Web Development</a></li>
+                                <li><a href="#services">E-commerce Solutions</a></li>
+                                <li><a href="#services">Mobile Development</a></li>
+                                <li><a href="#services">API Development</a></li>
+                                <li><a href="#services">Consulting</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Contact Info</h4>
+                            <ul class="contact-info">
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>monjoydhar29@gmail.com</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Dhaka,Bangladesh</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-clock"></i>
+                                    <span>Available 24/7</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 MONJOY DHAR. All rights reserved.</p>
+                    </div>
+                    <!-- <div class="footer-legal">
+                        <a href="#privacy">Privacy Policy</a>
+                        <a href="#terms">Terms of Service</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

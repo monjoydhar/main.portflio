@@ -1,0 +1,90 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primary-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B366FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="secondary-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circles -->
+  <circle cx="400" cy="100" r="80" fill="url(#primary-gradient)" opacity="0.1"/>
+  <circle cx="100" cy="300" r="60" fill="url(#primary-gradient)" opacity="0.15"/>
+  
+  <!-- Main illustration -->
+  <!-- Computer/Monitor -->
+  <rect x="150" y="180" width="200" height="120" rx="8" fill="url(#secondary-gradient)" stroke="url(#primary-gradient)" stroke-width="2"/>
+  <rect x="160" y="190" width="180" height="100" rx="4" fill="#1a1a1a"/>
+  
+  <!-- Screen content - Code lines -->
+  <rect x="170" y="200" width="60" height="4" rx="2" fill="#0066FF"/>
+  <rect x="240" y="200" width="40" height="4" rx="2" fill="#B366FF"/>
+  <rect x="170" y="210" width="80" height="4" rx="2" fill="#64748B"/>
+  <rect x="170" y="220" width="100" height="4" rx="2" fill="#0066FF"/>
+  <rect x="170" y="230" width="50" height="4" rx="2" fill="#B366FF"/>
+  <rect x="170" y="240" width="90" height="4" rx="2" fill="#64748B"/>
+  <rect x="170" y="250" width="70" height="4" rx="2" fill="#0066FF"/>
+  <rect x="170" y="260" width="110" height="4" rx="2" fill="#B366FF"/>
+  
+  <!-- Monitor stand -->
+  <rect x="235" y="300" width="30" height="20" rx="4" fill="url(#secondary-gradient)" stroke="url(#primary-gradient)" stroke-width="1"/>
+  <rect x="200" y="320" width="100" height="8" rx="4" fill="url(#secondary-gradient)" stroke="url(#primary-gradient)" stroke-width="1"/>
+  
+  <!-- Floating elements -->
+  <!-- HTML tag -->
+  <g transform="translate(80, 80)">
+    <rect x="0" y="0" width="60" height="30" rx="15" fill="url(#primary-gradient)" opacity="0.9"/>
+    <text x="30" y="20" text-anchor="middle" fill="white" font-family="monospace" font-size="12" font-weight="bold">HTML</text>
+  </g>
+  
+  <!-- CSS tag -->
+  <g transform="translate(380, 120)">
+    <rect x="0" y="0" width="50" height="30" rx="15" fill="url(#primary-gradient)" opacity="0.9"/>
+    <text x="25" y="20" text-anchor="middle" fill="white" font-family="monospace" font-size="12" font-weight="bold">CSS</text>
+  </g>
+  
+  <!-- JS tag -->
+  <g transform="translate(60, 320)">
+    <rect x="0" y="0" width="40" height="30" rx="15" fill="url(#primary-gradient)" opacity="0.9"/>
+    <text x="20" y="20" text-anchor="middle" fill="white" font-family="monospace" font-size="12" font-weight="bold">JS</text>
+  </g>
+  
+  <!-- React tag -->
+  <g transform="translate(400, 280)">
+    <rect x="0" y="0" width="60" height="30" rx="15" fill="url(#primary-gradient)" opacity="0.9"/>
+    <text x="30" y="20" text-anchor="middle" fill="white" font-family="monospace" font-size="10" font-weight="bold">REACT</text>
+  </g>
+  
+  <!-- Geometric decorations -->
+  <polygon points="120,60 140,60 130,40" fill="url(#primary-gradient)" opacity="0.6"/>
+  <polygon points="420,320 440,320 430,340" fill="url(#primary-gradient)" opacity="0.6"/>
+  
+  <!-- Code symbols -->
+  <text x="50" y="160" fill="url(#primary-gradient)" font-family="monospace" font-size="24" opacity="0.7">&lt;/&gt;</text>
+  <text x="420" y="200" fill="url(#primary-gradient)" font-family="monospace" font-size="24" opacity="0.7">{ }</text>
+  <text x="30" y="250" fill="url(#primary-gradient)" font-family="monospace" font-size="20" opacity="0.7">#</text>
+  <text x="450" y="60" fill="url(#primary-gradient)" font-family="monospace" font-size="20" opacity="0.7">$</text>
+  
+  <!-- Connecting lines -->
+  <path d="M 100 150 Q 200 120 300 150" stroke="url(#primary-gradient)" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="5,5"/>
+  <path d="M 400 200 Q 300 250 200 280" stroke="url(#primary-gradient)" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="5,5"/>
+  
+  <!-- Animated elements would be added via CSS animations -->
+  <g class="floating-element" style="animation: float 3s ease-in-out infinite;">
+    <circle cx="450" cy="150" r="4" fill="url(#primary-gradient)" opacity="0.8"/>
+  </g>
+  
+  <g class="floating-element" style="animation: float 3s ease-in-out infinite 1s;">
+    <circle cx="50" cy="100" r="3" fill="url(#primary-gradient)" opacity="0.6"/>
+  </g>
+  
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</svg>
